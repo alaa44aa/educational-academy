@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body{
+   background-image: url(55.jpg);
+    width: 100%;
+    height: 100vh;
+   
+   
+
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    background-image:url(44.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+.logo{
+    padding:15px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+ul{
+    
+    
+  list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+ul  a{
+    margin:50px ;
+    text-decoration: none;
+   
+    color: white;
+    border-bottom: 2px solid transparent;
+    transition: 1s ease;
+}
+ul a:hover{
+    
+    border-bottom: blue 2px solid;
+    font-size: x-large;
+    
+}
+.x{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    margin-left: 90px;
+    padding: 15px;
+}
+.x h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.x p{
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  
+}
+.x a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.x .btn{
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+  border-radius: 20px;
+   text-transform: capitalize;
+   color: black;
+   background-color: wheat;
+   cursor: pointer;
+   border: 2px darkcyan dashed;
+   transition: 1s;
+
+
+}
+.x .btn:hover{
+    background: transparent;
+    font-size: 25px;
+
+}
+.container .h {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    color: white;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 50px; 
+    background-color:green;
+    
+}
+.container .h a{
+    color:rosybrown;
+    transition: 0.5s;
+
+}
+.container .h a:hover{
+    color: gold;
+    font-size: 20px;
+}
